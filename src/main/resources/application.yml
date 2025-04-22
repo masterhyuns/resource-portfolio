@@ -15,11 +15,3 @@ spring:
         jwt:
           jwk-set-uri: http://localhost:8080/.well-known/jwks.json
 
-logging:
-  level:
-    org.springframework.security: DEBUG
-    org.springframework.web.cors: DEBUG
-    org.springframework.security.web.access: DEBUG
-    org.springframework.security.oauth2: DEBUG
-    org.springframework.security.oauth2.server.resource.web: TRACE
-    org.springframework.security.web.FilterChainProxy: TRACE
